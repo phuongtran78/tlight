@@ -985,6 +985,11 @@ pre code {
     transform: scaleX(-1);
 }
 
+.img-square img {
+    max-height: 265px;
+    object-fit: cover;
+}
+
 @media (min-width: 576px) {
     .col-sm {
         -ms-flex-preferred-size: 0;
